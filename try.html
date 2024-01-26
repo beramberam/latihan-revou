@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color: red;
+        }
+        .with-class{
+            color:blue;
+        }
+        #with-id-class{
+            color:green;
+        }
+        #only-id{
+            color:orange;
+        }
+        .exampleone{
+            width: 200px;
+            background-color: green;
+            border: 10px solid black;
+            padding-left: 60px;
+            box-sizing: border-box;
+        }
+        .exampletwo{
+            width: 200px;
+            background-color: red;
+            border: 10px solid black;
+            box-sizing: border-box;
+        }
+        .exampleflexbox{
+            display: flex;
+            flex-direction:column ;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="exampleflexbox">
+        <h3>1</h3>
+        <h3>2</h3>
+        <h3>3</h3>
+        <h3>4</h3>
+        <h3>5</h3>
+    </div>
+    <h2>Hello</h2>
+    <h2 class="exampleone">one</h2>
+    <h2 class="exampletwo">Two</h2>
+    <h2 class="with-class">word</h2>
+    <h2 id="with-id-class" class="with-class">Lorem</h2>
+    <h2 id="only-id">Ipsum</h2>
+</body>
+</html>
